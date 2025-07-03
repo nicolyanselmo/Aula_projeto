@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova Borzuk</title>
+    <title>Nicoly - Estudante do Barbosa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header-animation">
         <h1>Estudante do Barbosa</h1>
-        <img src="Logo.png" alt="Logo do Colégio Barbosa Ferraz" width="150">
+        <img src="Logo.png" alt="Logo do Colégio Barbosa Ferraz" width="150" class="logo-rotate">
     </header>
 
-    <main>
-        <section class="sobre-mim">
+    <main class="container">
+        <section class="sobre-mim info-card slide-in">
             <p>Sou estudante do Colégio Estadual Barbosa Ferraz</p>
-            <div class="dados-pessoais">
+            <div class="dados-pessoais pulse">
                 <p><strong>Nome:</strong> Nicoly</p>
                 <p><strong>Idade:</strong> 16 anos</p>
             </div>
         </section>
 
-        <section class="cursos">
+        <section class="cursos info-card slide-in">
             <p>Eu faço um curso sobre Desenvolvimento de Sistemas que é disponibilizado pelo Colégio.</p>
             <p>Faço também altas habilidades no colégio, para fazer projetos para feiras científicas.</p>
         </section>
 
-        <section class="objetivos">
+        <section class="objetivos info-card slide-in">
             <p>Meu objetivo com esse curso é aprimorar mais o meu conhecimento</p>
             <p>pois acho interessante saber mais de tecnologia</p>
             <p>e isso futuramente vai me auxiliar muito, até mesmo para conseguir um emprego na área de TI.</p>
         </section>
 
-        <div class="imagem-centro">
+        <div class="imagem-centro bounce">
             <img src="aluna.png" alt="Nicoly estudante" width="400">
         </div>
     </main>
 
     <footer>
-        <button onclick="window.location.href='pagina.html'">Sobre o arraiá</button>
+        <button onclick="window.location.href='pagina.html'" class="btn-grow">Sobre o arraiá</button>
     </footer>
+
+    <script src="animations.js"></script>
 </body>
 </html>
+
